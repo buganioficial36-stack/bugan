@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | Bugani</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header>
+    <img src="images\logobuga.png" alt="Bugani Logo" class="logo" />
+    <h1>Contáctanos</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="about.html">Sobre Nosotros</a>
+    <a href="products.html">Productos</a>
+    <a href="contact.html">Contacto</a>
+  </nav>
+
+  <main class="container contact-page">
+    <section class="contact-intro">
+      <h2>¿Quieres un pedido personalizado o consulta?</h2>
+      <p>
+        Nos encanta crear piezas únicas a mano. Completa el formulario o escríbenos directamente
+        a través de nuestras redes sociales o WhatsApp 💬
+      </p>
+    </section>
+
+    <section class="contact-form">
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" placeholder="tunombre@email.com" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" placeholder="Cuéntanos qué te gustaría pedir..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-secondary">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="images\logobuga.png" alt="Bugani" class="logo-small" />
+        <p>Hecho con amor desde El Salvador 🌿</p>
+      </div>
+      <div class="footer-right">
+        <nav class="socials">
+         <a href="https://www.instagram.com/bugani.sv?igsh=aHE1amsxbDdndW9v" aria-label="Instagram">Instagram</a>
+          <a href="https://www.tiktok.com/@bugani.sv?_t=ZM-90vkLXNDJVL&_r=1" aria-label="TikTok">TikTok</a>
+          <a href="https://www.facebook.com/share/1CW7MmJwfB/" aria-label="Facebook">Facebook</a>
+          <a href="http://Wa.me/50364607716" aria-label="WhatsApp">WhatsApp</a>
+        </nav>
+        <p class="copyright">© <span id="year"></span> Bugani. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

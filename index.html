@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bugani — Tejidos a mano</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <img src="images\logobuga.png" alt="Bugani Logo" class="logo">
+      <nav class="main-nav">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="products.html">Productos</a>
+        <a href="about.html">Nosotros</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contacto</a>
+      </nav>
+    </div>
+
+    <div class="hero">
+      <h1>Bugani</h1>
+      <p>Tejidos a mano con amor desde El Salvador 🌿</p>
+      <a href="products.html" class="btn">Ver productos</a>
+    </div>
+  </header>
+
+  <!-- DESTACADOS -->
+  <section class="featured container">
+    <h2>Destacados</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="images/diadema tuipanes.jpg" alt="Diadema Tulipanes">
+        <h4>Diadema "Tulipanes"</h4>
+        <p>Hecha con hilo suave y colores naturales.</p>
+      </div>
+
+      <div class="card">
+        <img src="images\snoppy.jpg" alt="Snoppy">
+        <h4>Snoppy"</h4>
+        <p>Perfecto para regalar.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/ramo tulipan.jpg" alt="Ramo Tulipán">
+        <h4>Ramo "Tulipán"</h4>
+        <p>Tejido con delicadeza, inspirado en la naturaleza.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta container">
+    <h3>¿List@ para un pedido personalizado?</h3>
+    <a class="btn btn-secondary" href="contact.html">Contáctanos</a>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div class="footer-left">
+        <p>Hecho con amor desde El Salvador 🌿</p>
+      </div>
+      <div class="footer-right">
+        <nav class="socials">
+          <a href="https://www.instagram.com/bugani.sv?igsh=aHE1amsxbDdndW9v" aria-label="Instagram">Instagram</a>
+          <a href="https://www.tiktok.com/@bugani.sv?_t=ZM-90vkLXNDJVL&_r=1" aria-label="TikTok">TikTok</a>
+          <a href="https://www.facebook.com/share/1CW7MmJwfB/" aria-label="Facebook">Facebook</a>
+          <a href="http://Wa.me/50364607716" aria-label="WhatsApp">WhatsApp</a>
+        </nav>
+        <p class="copyright">© <span id="year"></span> Bugani. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Actualiza el año automáticamente
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
